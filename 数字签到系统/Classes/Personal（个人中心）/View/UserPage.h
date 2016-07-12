@@ -3,7 +3,7 @@
 //  数字签到系统
 //
 //  Created by VOREVER on 2/11/16.
-//  Copyright © 2016 XiongSiYao. All rights reserved.
+//  Copyright © 2016 VOREVER. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

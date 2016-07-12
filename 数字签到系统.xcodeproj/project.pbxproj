@@ -33,11 +33,8 @@
 		8F1F68491C6384110047247D /* third_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1F68351C6384110047247D /* third_normal@2x.png */; };
 		8F1F684A1C6384110047247D /* third_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1F68361C6384110047247D /* third_selected.png */; };
 		8F1F684B1C6384110047247D /* third_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1F68371C6384110047247D /* third_selected@2x.png */; };
-		8F1F68591C64D8AE0047247D /* MCBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F68581C64D8AE0047247D /* MCBarChartViewController.m */; };
 		8F1F685C1C64D8BE0047247D /* MCBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F685B1C64D8BE0047247D /* MCBarChartView.m */; };
 		8F1F685F1C64DA130047247D /* MCChartInformationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F685E1C64DA130047247D /* MCChartInformationView.m */; };
-		8F1F68631C64EC160047247D /* SignTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F68611C64EC160047247D /* SignTableViewCell.m */; };
-		8F1F68641C64EC160047247D /* SignTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1F68621C64EC160047247D /* SignTableViewCell.xib */; };
 		8F1F68731C69FBA30047247D /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F68671C69FBA30047247D /* AFHTTPSessionManager.m */; };
 		8F1F68741C69FBA30047247D /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F686A1C69FBA30047247D /* AFNetworkReachabilityManager.m */; };
 		8F1F68751C69FBA30047247D /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F686C1C69FBA30047247D /* AFSecurityPolicy.m */; };
@@ -126,15 +123,10 @@
 		8F1F68351C6384110047247D /* third_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "third_normal@2x.png"; sourceTree = "<group>"; };
 		8F1F68361C6384110047247D /* third_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = third_selected.png; sourceTree = "<group>"; };
 		8F1F68371C6384110047247D /* third_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "third_selected@2x.png"; sourceTree = "<group>"; };
-		8F1F68571C64D8AE0047247D /* MCBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCBarChartViewController.h; path = "数字签到系统/Classes/Statistics（统计）/Controller/MCBarChartViewController.h"; sourceTree = SOURCE_ROOT; };
-		8F1F68581C64D8AE0047247D /* MCBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCBarChartViewController.m; path = "数字签到系统/Classes/Statistics（统计）/Controller/MCBarChartViewController.m"; sourceTree = SOURCE_ROOT; };
 		8F1F685A1C64D8BE0047247D /* MCBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCBarChartView.h; path = "数字签到系统/Classes/Statistics（统计）/View/MCBarChartView.h"; sourceTree = SOURCE_ROOT; };
 		8F1F685B1C64D8BE0047247D /* MCBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCBarChartView.m; path = "数字签到系统/Classes/Statistics（统计）/View/MCBarChartView.m"; sourceTree = SOURCE_ROOT; };
 		8F1F685D1C64DA130047247D /* MCChartInformationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCChartInformationView.h; path = "数字签到系统/Classes/Statistics（统计）/View/MCChartInformationView.h"; sourceTree = SOURCE_ROOT; };
 		8F1F685E1C64DA130047247D /* MCChartInformationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCChartInformationView.m; path = "数字签到系统/Classes/Statistics（统计）/View/MCChartInformationView.m"; sourceTree = SOURCE_ROOT; };
-		8F1F68601C64EC160047247D /* SignTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignTableViewCell.h; sourceTree = "<group>"; };
-		8F1F68611C64EC160047247D /* SignTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignTableViewCell.m; sourceTree = "<group>"; };
-		8F1F68621C64EC160047247D /* SignTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignTableViewCell.xib; sourceTree = "<group>"; };
 		8F1F68661C69FBA30047247D /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		8F1F68671C69FBA30047247D /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		8F1F68681C69FBA30047247D /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
@@ -434,7 +426,7 @@
 		8F4DA1CF1BD8F5250037A69D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8F4DA1D81BD8F5260037A69D /* Sign（签到） */,
+				8F4DA1D81BD8F5260037A69D /* Sign（二维码） */,
 				8F4DA1D41BD8F5260037A69D /* Personal（个人中心） */,
 				8F4DA1DC1BD8F5260037A69D /* Statistics（统计） */,
 				8F4DA1D01BD8F5250037A69D /* Other（其他） */,
@@ -512,13 +504,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		8F4DA1D81BD8F5260037A69D /* Sign（签到） */ = {
+		8F4DA1D81BD8F5260037A69D /* Sign（二维码） */ = {
 			isa = PBXGroup;
 			children = (
 				8F4DA1D91BD8F5260037A69D /* Controller */,
 				8F4DA1DA1BD8F5260037A69D /* Model */,
 				8F4DA1DB1BD8F5260037A69D /* View */,
 			);
+			name = "Sign（二维码）";
 			path = "Sign（签到）";
 			sourceTree = "<group>";
 		};
@@ -541,9 +534,6 @@
 		8F4DA1DB1BD8F5260037A69D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8F1F68601C64EC160047247D /* SignTableViewCell.h */,
-				8F1F68611C64EC160047247D /* SignTableViewCell.m */,
-				8F1F68621C64EC160047247D /* SignTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -561,8 +551,6 @@
 		8F4DA1DD1BD8F5260037A69D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				8F1F68571C64D8AE0047247D /* MCBarChartViewController.h */,
-				8F1F68581C64D8AE0047247D /* MCBarChartViewController.m */,
 				8F1F68201C637FAC0047247D /* StatisticsViewController.h */,
 				8F1F68211C637FAC0047247D /* StatisticsViewController.m */,
 			);
@@ -718,7 +706,6 @@
 				8F1F68391C6384110047247D /* first_normal@2x.png in Resources */,
 				8F1F68421C6384110047247D /* second_selected.png in Resources */,
 				8F1F683A1C6384110047247D /* first_selected.png in Resources */,
-				8F1F68641C64EC160047247D /* SignTableViewCell.xib in Resources */,
 				8F1F68381C6384110047247D /* first_normal.png in Resources */,
 				8F7FC7EA1C6B56120099C437 /* Info.plist in Resources */,
 				8F1F683F1C6384110047247D /* navigationbar_background_tall@2x.png in Resources */,
@@ -762,8 +749,6 @@
 				8F1F68A61C6A1D6B0047247D /* MBProgressHUD+MJ.m in Sources */,
 				8F1F68751C69FBA30047247D /* AFSecurityPolicy.m in Sources */,
 				8F4DA1A11BD8E2B50037A69D /* AppDelegate.m in Sources */,
-				8F1F68631C64EC160047247D /* SignTableViewCell.m in Sources */,
-				8F1F68591C64D8AE0047247D /* MCBarChartViewController.m in Sources */,
 				8F1F68221C637FAC0047247D /* StatisticsViewController.m in Sources */,
 				8F1F681C1C637F860047247D /* SignViewController.m in Sources */,
 				8F1F68961C6A14B40047247D /* MJPropertyKey.m in Sources */,
@@ -924,7 +909,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "数字签到系统/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "XiongSiYao.------";
+				PRODUCT_BUNDLE_IDENTIFIER = XiongSiYao.teachersign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -939,7 +924,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "数字签到系统/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "XiongSiYao.------";
+				PRODUCT_BUNDLE_IDENTIFIER = XiongSiYao.teachersign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};

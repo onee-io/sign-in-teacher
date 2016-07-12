@@ -3,7 +3,7 @@
 //  数字签到系统
 //
 //  Created by VOREVER on 2/4/16.
-//  Copyright © 2016 XiongSiYao. All rights reserved.
+//  Copyright © 2016 VOREVER. All rights reserved.
 //
 
 #import "PersonalViewController.h"
@@ -36,16 +36,22 @@
         NSFontAttributeName : [UIFont boldSystemFontOfSize:18]
     };
     self.navigationItem.title = @"个人中心";    
-    [self initData];
+    [self initDataBase];
     [self checkUser];
 }
 
+- (FMDatabase *)db {
+    if (_db == nil) {
+        NSString *cachePath = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES)[0];
+        NSString *filePath = [cachePath stringByAppendingPathComponent:@"user.sqlite"];
+        _db = [FMDatabase databaseWithPath:filePath];
+    }
+    return _db;
+}
+
 #pragma mark 初始化数据库
-- (void)initData {
-    NSString *cachePath = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES)[0];
-    NSString *filePath = [cachePath stringByAppendingPathComponent:@"user.sqlite"];
-    self.db = [FMDatabase databaseWithPath:filePath];
-    
+- (void)initDataBase {
+
     if ([self.db open]) {
         NSLog(@"数据库打开成功");
         if (![self isTableOK:@"t_user"]) {

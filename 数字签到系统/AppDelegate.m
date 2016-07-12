@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  数字签到系统
 //
-//  Created by 熊思瑶 on 15/10/22.
-//  Copyright © 2015年 XiongSiYao. All rights reserved.
+//  Created by VOREVER on 15/10/22.
+//  Copyright © 2015年 VOREVER. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -12,7 +12,7 @@
 #import "StatisticsViewController.h"
 #import "RDVTabBarController.h"
 #import "RDVTabBarItem.h"
-#import "MCBarChartViewController.h"
+#import "StatisticsViewController.h"
 
 @interface AppDelegate ()
 
@@ -46,7 +46,7 @@
     UIViewController *personalNavigationController = [[UINavigationController alloc]
                                                     initWithRootViewController:personalViewController];
     
-    UIViewController *statistcsViewController = [[MCBarChartViewController alloc] init];
+    UIViewController *statistcsViewController = [[StatisticsViewController alloc] init];
     UIViewController *statistcsNavigationController = [[UINavigationController alloc]
                                                    initWithRootViewController:statistcsViewController];
     
