@@ -16,9 +16,9 @@
 
 
 ## 应用截图
-![image](https://github.com/VOREVER/SignIn-Student/blob/master/screenshots/IMG_0979.jpg)
-![image](https://github.com/VOREVER/SignIn-Student/blob/master/screenshots/IMG_0981.jpg)
-![image](https://github.com/VOREVER/SignIn-Student/blob/master/screenshots/IMG_0977.jpg)
+![image](https://github.com/VOREVER/SignIn-Teacher/blob/master/screenshots/IMG_0261.jpg)
+![image](https://github.com/VOREVER/SignIn-Teacher/blob/master/screenshots/IMG_0260.jpg)
+![image](https://github.com/VOREVER/SignIn-Teacher/blob/master/screenshots/IMG_0263.jpg)
 
 ## 另一个对应的APP
 
