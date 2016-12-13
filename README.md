@@ -22,4 +22,4 @@
 
 ## 另一个对应的APP
 
-教师端客户端请点链接：[SignIn-Teacher](https://github.com/VOREVER/SignIn-Student)
+学生端客户端请点链接：[SignIn-Student](https://github.com/VOREVER/SignIn-Student)
