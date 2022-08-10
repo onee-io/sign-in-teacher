@@ -22,4 +22,4 @@
 
 ## 另一个对应的APP
 
-学生端客户端请点链接：[SignIn-Student](https://github.com/onee-io/sign-in-student)
+学生端客户端请点链接：[sign-in-student](https://github.com/onee-io/sign-in-student)
